@@ -1,0 +1,3 @@
+{
+  "extends": "eslint-config-ev-node/ts.config.json"
+}
