@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest ./src",
     "test-debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand ./src",
-    "build": "rm -rf build && tsc -p tsconfig.json"
+    "build": "rm -rf build && tsc -p tsconfig.json",
+    "release": "./release.sh"
   },
   "repository": {
     "type": "git",
